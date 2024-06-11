@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light pastel blue */
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+}
+
+header {
+    background-color: #87ceeb; /* Sky blue */
+    padding: 20px;
+    text-align: center;
+}
+
+body.dark-mode header {
+    background-color: #1f1f1f; /* Dark header */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#home {
+    text-align: center;
+    background-color: #afeeee; /* Pale turquoise */
+}
+
+body.dark-mode #home {
+    background-color: #1e1e1e; /* Dark section */
+}
+
+#about, #portfolio, #contact {
+    background-color: #e0ffff; /* Light cyan */
+}
+
+body.dark-mode #about, body.dark-mode #portfolio, body.dark-mode #contact {
+    background-color: #2e2e2e; /* Dark section */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery div {
+    flex: 1 1 calc(33.333% - 10px);
+    background-color: #b0e0e6; /* Powder blue */
+    padding: 10px;
+}
+
+body.dark-mode .gallery div {
+    background-color: #3e3e3e; /* Dark gallery item */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #87ceeb; /* Sky blue */
+    border-radius: 5px;
+}
+
+body.dark-mode form input, body.dark-mode form textarea {
+    background-color: #4e4e4e; /* Dark form input */
+    border: 1px solid #5e5e5e; /* Dark form border */
+    color: #ffffff; /* Light text */
+}
+
+form button {
+    padding: 10px;
+    background-color: #87ceeb; /* Sky blue */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body.dark-mode form button {
+    background-color: #6e6e6e; /* Dark button */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #87ceeb; /* Sky blue */
+    color: #fff;
+}
+
+body.dark-mode footer {
+    background-color: #1f1f1f; /* Dark footer */
+}
